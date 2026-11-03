@@ -10,11 +10,11 @@ export default function Experience() {
       {experience.map((e) => (
         <GlassCard key={e.company} className="panel">
           <div className="row">
-            <h3>{e.company}</h3>
+            <h3>{e.company} - {e.location}</h3>
             <span className="when">{e.period}</span>
           </div>
           <p className="mut">
-            {e.role} · {e.location}
+            {e.role}
           </p>
           <ul className="dots">
             {e.points.map((p) => (
