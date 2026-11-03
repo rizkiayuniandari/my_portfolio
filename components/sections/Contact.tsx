@@ -8,7 +8,7 @@ export default function Contact() {
         Let&apos;s work <em>together.</em>
       </h2>
       <p className="mut" style={{ margin: "10px 0 24px" }}>
-        {personal.location} · {personal.phone}
+        {personal.location}
       </p>
 
       <a className="btn" href={`mailto:${personal.email}`}>
@@ -17,8 +17,8 @@ export default function Contact() {
       <a className="btn o" href={personal.linkedin} target="_blank" rel="noopener noreferrer">
         LinkedIn
       </a>{" "}
-      <a className="btn o" href={personal.github} target="_blank" rel="noopener noreferrer">
-        GitHub
+      <a className="btn o" href={personal.instagram} target="_blank" rel="noopener noreferrer">
+        Instagram
       </a>{" "}
       <a className="btn o" href={personal.whatsapp} target="_blank" rel="noopener noreferrer">
         WhatsApp

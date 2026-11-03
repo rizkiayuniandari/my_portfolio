@@ -3,12 +3,12 @@ export const personal = {
   shortName: "Rizkia",
   email: "msyrizkiayuniandari1@gmail.com",
   phone: "+62 82248472562",
-  location: "Palembang, South Sumatra, Indonesia",
+  location: "Depok, West Java, Indonesia",
   linkedin: "https://www.linkedin.com/in/msy-rizkia-yuniandari-a01938295",
-  github: "https://github.com/rizkiayuniandari",
+  instagram: "https://www.instagram.com/masayu_r/",
   whatsapp: "https://wa.me/6282248472562",
-  cv: "https://drive.google.com/xxxxx", // TODO: replace with your Google Drive CV link
-  photo: "/msy-rizkia.jpg", // put the file in /public
+  cv: "https://drive.google.com/xxxxx",
+  photo: "/full.jpeg",
 };
 
 export const about = {

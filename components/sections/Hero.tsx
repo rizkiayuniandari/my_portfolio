@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="blob" style={{ width: 200, height: 200, right: -60, bottom: 0, background: "var(--b1)", animationDelay: "2s" }} />
 
         <div className="rv">
-          <p className="k">Front-End Developer · UI/UX</p>
+          <p className="k">Front-End Developer · Web Developer · UI/UX </p>
           <h1>
             Interfaces <em>built with care</em>
           </h1>
@@ -39,16 +39,19 @@ export default function Hero() {
               <path id="c" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" />
             </defs>
             <circle cx="50" cy="50" r="48" fill="#6B4A3A" />
-            <text fontSize="10.5" fill="#F8D5C2" letterSpacing="2">
-              <textPath href="#c">FRONT-END · UI/UX · NEXT.JS · FRONT-END · UI/UX · NEXT.JS ·</textPath>
+            <text fontSize="9.5" fill="#F8D5C2" letterSpacing="2">
+              <textPath href="#c">FRONTEND DEV · UI/UX · WEB DEV ·</textPath>
             </text>
           </svg>
 
-          <span className="fl glass" style={{ left: -24, bottom: 70 }}>
-            Front-End
+          <span className="fl glass" style={{ left: -20, bottom: 60 }}>
+            Front-End Development
           </span>
-          <span className="fl glass" style={{ right: -14, bottom: 20, animationDelay: "1.5s" }}>
+          <span className="fl glass" style={{ right: -10, bottom: 10, animationDelay: "1.5s" }}>
             UI/UX
+          </span>
+          <span className="fl glass" style={{ right: -30, bottom: 110, animationDelay: "1.5s" }}>
+            Web Development
           </span>
         </div>
       </div>
