@@ -1,28 +1,47 @@
 import Badge from "@/components/ui/Badge";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionTitle from "@/components/ui/SectionTitle";
-import { education } from "@/app/data/portfolio";
+import { educations } from "@/app/data/portfolio";
 
 export default function Education() {
   return (
     <section id="education">
       <SectionTitle eyebrow="Education" title="Where I" accent="studied." />
 
-      <GlassCard className="panel">
-        <div className="row">
-          <h3>{education.school}</h3>
-          <span className="when">{education.period}</span>
-        </div>
-        <p className="mut">
-          {education.degree} · {education.location}
-        </p>
-        <div className="pills" style={{ marginTop: 14 }}>
-          <Badge>GPA {education.gpa}</Badge>
-        </div>
-        <p style={{ marginTop: 18 }}>
-          <b>Thesis:</b> <span className="mut">{education.thesis}</span>
-        </p>
-      </GlassCard>
+      {educations.map((edu, i) => (
+        <GlassCard key={edu.school} className="panel" delay={i * 0.1}>
+          <div className="row">
+            <h3>{edu.school} - {edu.location}</h3>
+            <span className="when">{edu.period}</span>
+          </div>
+
+          <p className="mut">
+            {edu.degree} 
+          </p>
+
+          {edu.gpa && (
+            <div className="pills" style={{ marginTop: 14 }}>
+              <Badge>GPA {edu.gpa}</Badge>
+            </div>
+          )}
+
+          {edu.thesis && (
+            <p style={{ marginTop: 18 }}>
+              <b>Thesis:</b> <span className="mut">{edu.thesis}</span>
+            </p>
+          )}
+
+          {edu.points.length > 0 && (
+            <>
+              <ul className="dots">
+                {edu.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </GlassCard>
+      ))}
     </section>
   );
 }

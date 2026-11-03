@@ -38,14 +38,32 @@ export const experience = [
   },
 ];
 
-export const education = {
-  school: "Sriwijaya University",
-  location: "Inderalaya, Indonesia",
-  period: "Aug 2021 – Jul 2025",
-  degree: "Bachelor of Informatics Engineering",
-  gpa: "3.90 / 4.00",
-  thesis: "Comparison of Naïve Bayes Classifier and Random Forest Methods for Film Classification Based on Viewer Age",
-};
+export const educations = [
+  {
+    school: "Sriwijaya University",
+    location: "Inderalaya, Indonesia",
+    period: "Aug 2021 – Jul 2025",
+    degree: "Bachelor of Informatics Engineering",
+    gpa: "3.90 / 4.00",
+    thesis: "Comparison of Naïve Bayes Classifier and Random Forest Methods for Film Classification Based on Viewer Age",
+    points: [] as string[],
+  },
+  {
+    school: "Bangkit Academy by Google, GoTo and Traveloka",
+    location: "Indonesia",
+    period: "Aug 2021 – Jul 2025",
+    degree: "MSIB Batch 5 - Cloud Computing Student",
+    gpa: "",
+    thesis: "",
+    points: [
+      "Helped the team design mobile applications.",
+      "Created and managed database and storage services.",
+      "Deployed and trained machine learning model using Vertex AI and Node.js to create an API endpoint.",
+      "Managed logging, monitoring, and alerting services.",
+      "Collaborated with a team of 5 members, presenting final output to 3 mentors/stakeholders.",
+    ],
+  },
+];
 
 export type Project = {
   slug: string;
