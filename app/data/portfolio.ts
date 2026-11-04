@@ -4,7 +4,7 @@ export const personal = {
   email: "msyrizkiayuniandari1@gmail.com",
   phone: "+62 82248472562",
   location: "Depok, West Java, Indonesia",
-  linkedin: "https://www.linkedin.com/in/msy-rizkia-yuniandari-a01938295",
+  linkedin: "https://www.linkedin.com/in/rizkiayuniandari",
   instagram: "https://www.instagram.com/masayu_r/",
   whatsapp: "https://wa.me/6282248472562",
   cv: "https://drive.google.com/file/d/1j3DqVwnSPXD8wTEwT20M_KgBERuBLLzS/view",
@@ -13,13 +13,13 @@ export const personal = {
 
 export const about = {
   summary:
-    "A fresh graduate in Informatics Engineering with a strong interest in Front-End Development, Web Development, and UI/UX Design. Experienced in developing responsive web applications using Next.js and TypeScript, integrating REST APIs, and implementing real-time communication using MQTT and WebSocket. Strong analytical, problem-solving, and teamwork skills, with the ability to work independently and collaboratively. Eager to learn new technologies and build efficient, reliable, and user-friendly web applications.",
+    "Frontend Developer experienced in designing and developing responsive website, including Iot monitoring dashboards, CRM platforms and company website. Skilled in Next.js, React.js, TypeScript, and REST API integration, with experience in real-time communication using MQTT and WebSocket. Collaborates closely with engineering teams throughout the design and development process, translating user and business requirements into functional, intuitive and user-centered digital solutions.",
 };
 
 export const skills = {
-  hard: ["HTML", "CSS", "Next.js", "React.js", "TypeScript", "Python", "JavaScript", "MySQL", "Figma", "Git", "Microsoft Office"],
+  hard: ["HTML", "CSS", "Next.js", "React.js", "TypeScript", "Python", "JavaScript", "MySQL", "Frontend Architecture", "Responsive Web Design", "Interaction Design", "Design System"],
   soft: ["Analytical Skills", "Time Management", "Teamwork", "Attention to Detail", "Adaptability"],
-  languages: ["Bahasa Indonesia (Native)", "English (B1 Intermediate)"],
+  tools: ["Visual Studio Code", "Figma", "Git/Github", "Vercel", "MySQL"],
 };
 
 export const experience = [
@@ -29,11 +29,11 @@ export const experience = [
     period: "Dec 2025 – Jun 2026",
     role: "Front-End Engineer Intern – Maganghub Kemnaker Internship Program",
     points: [
-      "Redesigned the Venambak mobile application interface for Android, including the addition of marketplace and device control features to expand the app's functionality.",
-      "Designed and implemented a real-time monitoring website, company profile website, and CRM web platform to support the company's operational needs.",
-      "Engineered and maintained the company's website using Next.js, improving functionality, performance, and overall user experience.",
-      "Integrated REST APIs, MQTT, and WebSocket into the front-end architecture to facilitate real-time data updates.",
-      "Debugged front-end and deployment issues, resolving critical bugs while supporting server configuration and website deployment.",
+      "Designed 4+ UI mockups tailored to company needs, including a complete redesign of the Venambak mobile application with enhanced marketplace and device control functionalities.",
+      "Developed 3 web platforms utilizing Next.js implementing CRUD operations and role-based access control (RBAC) to facilitate business operations and user management.",
+      "Successfully integrated REST APIs for user data management, and utilized MQTT and WebSocket for real-time sensor updates and remote device control.",
+      "Efficiently debugged frontend and deployment issues, resolving critical bugs and providing support for server configuration and website deployment.",
+      "Collaborated closely with engineering teams through design reviews and feedback iterations, refining UI/UX solutions to ensure design consistency and smooth implementation.",
     ],
   },
 ];
@@ -56,10 +56,8 @@ export const educations = [
     gpa: "",
     thesis: "",
     points: [
-      "Helped the team design mobile applications.",
-      "Created and managed database and storage services.",
-      "Deployed and trained machine learning model using Vertex AI and Node.js to create an API endpoint.",
-      "Managed logging, monitoring, and alerting services.",
+      "Studied fundamental of IT Infrastructure, Computer Networking, System Administration, Google Cloud Computing, Backend Development, JavaScript, Web Development, Git/Github, and Programming Logic.",
+      "Completed 5+ hands-on case studies and practical excercises.",
       "Collaborated with a team of 5 members, presenting final output to 3 mentors/stakeholders.",
     ],
   },
@@ -96,8 +94,8 @@ export const projects: Project[] = [
       "Assisted with deployment and server-side troubleshooting for production releases.",
     ],
     collaboration: ["Backend Engineer", "Project Manager"],
-    tech: ["Next.js", "TypeScript", "React.js", "REST API"],
-    image: "/projects/crm.png",
+    tech: ["Next.js", "TypeScript", "REST API"],
+    image: "/projects/project-3/crm1.png",
     link: {
       label: "View prototype",
       url: "https://www.figma.com/proto/vCMhrY1ZmZ3WaiwLclhsYX/web-admin-FIX?node-id=317-1049&p=f&t=bKjjvMsRQr6Ls8rF-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=317%3A1049",
@@ -112,13 +110,13 @@ export const projects: Project[] = [
       "A web-based IoT dashboard for real-time device management. Users can monitor multiple devices, view online/offline status, control devices remotely, configure operating schedules, and track device-specific data. Venjet devices display energy consumption, while Sensor devices provide real-time water quality parameters: pH, temperature, salinity, ORP, DO, and TDS.",
     responsibilities: [
       "Designed a responsive UI/UX for desktop and mobile devices.",
-      "Implemented the UI design using Next.js and TypeScript.",
+      "Developed and implemented user interfaces using Next.js, integrating Role-Based Access Control (RBAC) to ensure secure, role-specific access.",
       "Integrated REST APIs, MQTT, and WebSocket for real-time data communication and device monitoring.",
       "Performed debugging, troubleshooting, and performance optimization.",
     ],
     collaboration: ["Backend Engineer", "Software Engineer", "Project Manager"],
     tech: ["Next.js", "TypeScript", "REST API", "MQTT", "WebSocket"],
-    image: "/projects/monitoring.png",
+    image: "/projects/project-4/monitoring.png",
     note: "Due to confidentiality agreements, the final deliverables of this project cannot be publicly shared.",
   },
   {
@@ -135,9 +133,9 @@ export const projects: Project[] = [
       "Performed front-end debugging, troubleshooting, and bug fixing.",
       "Took part in code reviews and testing to maintain code quality and system performance.",
     ],
-    collaboration: ["Content Team", "Backend Engineer", "Fullstack Developer", "Project Manager"],
-    tech: ["Next.js", "TypeScript", "React.js"],
-    image: "/projects/company-profile.png",
+    collaboration: ["Content Team", "Backend Engineer", "Project Manager"],
+    tech: ["Next.js", "TypeScript"],
+    image: "/projects/project-5/venambak.png",
   },
   {
     slug: "venambak-app",
@@ -152,7 +150,7 @@ export const projects: Project[] = [
     ],
     collaboration: [],
     tech: ["UI/UX", "Figma", "Android"],
-    image: "/projects/venambak-app.png",
+    image: "/projects/project-6/cover.png",
   },
   {
     slug: "serenepath",
@@ -167,9 +165,9 @@ export const projects: Project[] = [
       "Deployed the trained ML model using Vertex AI and Node.js to create an API endpoint.",
       "Managed logging, monitoring, and alerting services.",
     ],
-    collaboration: ["Machine Learning Cohort", "Mobile Development Cohort"],
-    tech: ["Cloud", "Vertex AI", "Node.js"],
-    image: "/projects/serenepath.jpg",
+    collaboration: ["Machine Learning Student", "Mobile Development Student"],
+    tech: ["Cloud", "Docker", "Postman", "Vertex AI", "Node.js"],
+    image: "/projects/project-1/logo.jpg",
   },
   {
     slug: "revou",
@@ -184,7 +182,7 @@ export const projects: Project[] = [
     ],
     collaboration: ["Project team"],
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "/projects/revou.png",
+    image: "/projects/project-2/revou1.png",
   },
 ];
 

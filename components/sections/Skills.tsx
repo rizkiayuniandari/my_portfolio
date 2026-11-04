@@ -6,7 +6,7 @@ import { skills } from "@/app/data/portfolio";
 const groups = [
   { title: "Hard skills", items: skills.hard },
   { title: "Soft skills", items: skills.soft },
-  { title: "Languages", items: skills.languages },
+  { title: "Tools", items: skills.tools },
 ];
 
 export default function Skills() {

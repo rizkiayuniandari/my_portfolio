@@ -2,7 +2,7 @@
 import type { CSSProperties } from "react";
 import { personal } from "@/app/data/portfolio";
 
-const tech = ["NEXT.JS", "TYPESCRIPT", "REACT", "UI/UX", "REST API", "MQTT", "WEBSOCKET"];
+const tech = ["NEXT.JS", "TYPESCRIPT", "REACT.JS", "UI/UX", "RESPONSIVE WEB DESIGN", "INTERACTION DESIGN", "FRONTEND ARCHITECTURE"];
 
 export default function Hero() {
   const marquee = [...tech, ...tech];
@@ -16,10 +16,11 @@ export default function Hero() {
         <div className="rv">
           <p className="k">Front-End Developer · Web Developer · UI/UX </p>
           <h1>
-            Interfaces <em>built with care</em>
+            Building Responsive{" "}
+            <em>Web Applications</em>
           </h1>
           <p className="lead">
-            Hi, I&apos;m {personal.name}. I build responsive web applications with Next.js, REST APIs, MQTT, and WebSocket.
+            Hi, I&apos;m {personal.name}. IT Project Enthusiast.
           </p>
           <a className="btn" href="#projects">
             Projects
@@ -45,13 +46,13 @@ export default function Hero() {
           </svg>
 
           <span className="fl glass" style={{ left: -20, bottom: 60 }}>
-            Front-End Development
+            Front-End Developer
           </span>
           <span className="fl glass" style={{ right: -10, bottom: 10, animationDelay: "1.5s" }}>
             UI/UX
           </span>
           <span className="fl glass" style={{ right: -30, bottom: 110, animationDelay: "1.5s" }}>
-            Web Development
+            Web Developer
           </span>
         </div>
       </div>
