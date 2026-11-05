@@ -77,3 +77,34 @@ footer{padding:16px 0 48px;text-align:center;font-size:14px;color:var(--mut)}
 .note{margin-top:22px;padding:14px 18px;border-radius:16px;background:var(--glass);border:1px solid var(--gb);font-size:14px}
 .dbody .btn{margin-top:24px}
 @media (prefers-reduced-motion:reduce){.fl,.blob,.spin,.mq{animation:none}.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+/* ===== Navbar mobile (menu tiga garis) ===== */
+.menu-btn{display:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--gb);background:var(--glass);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0;margin-left:auto}
+.menu-btn span{display:block;width:20px;height:2px;border-radius:2px;background:var(--ink);transition:transform .25s,opacity .25s}
+header[data-open="true"] .menu-btn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+header[data-open="true"] .menu-btn span:nth-child(2){opacity:0}
+header[data-open="true"] .menu-btn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media (max-width:860px){
+  header{border-radius:28px}
+  .menu-btn{display:flex}
+  header>nav,header>.btn{display:none}
+  header[data-open="true"]>nav{display:flex;flex-direction:column;width:100%;gap:0;padding-top:6px}
+  header[data-open="true"]>nav a{padding:14px 4px;font-size:16px;border-top:1px solid var(--gb)}
+  header[data-open="true"]>.btn{display:block;width:100%;text-align:center;margin-top:8px}
+}
+
+/* ===== Teks rata kanan-kiri ===== */
+p,li{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
+.k,.cert p{text-align:left;hyphens:manual}
+.cta p{text-align:center;hyphens:manual}
+
+/* ===== Navbar tetap terlihat saat scroll ===== */
+header{position:sticky;top:16px;z-index:50}
+
+/* Supaya judul section tidak tertutup navbar saat klik menu */
+section,.cta{scroll-margin-top:100px}
+
+/* Menu mobile yang panjang bisa di-scroll di dalam navbar */
+@media (max-width:860px){
+  header[data-open="true"]{max-height:calc(100vh - 32px);overflow-y:auto}
+}

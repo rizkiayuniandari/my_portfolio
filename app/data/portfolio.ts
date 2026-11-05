@@ -3,7 +3,7 @@ export const personal = {
   shortName: "Rizkia",
   email: "msyrizkiayuniandari1@gmail.com",
   phone: "+62 82248472562",
-  location: "Depok, West Java, Indonesia",
+  location: "Jakarta, Indonesia",
   linkedin: "https://www.linkedin.com/in/rizkiayuniandari",
   instagram: "https://www.instagram.com/masayu_r/",
   whatsapp: "https://wa.me/6282248472562",
