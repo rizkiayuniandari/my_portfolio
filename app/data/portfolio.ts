@@ -45,8 +45,12 @@ export const educations = [
     period: "Aug 2021 – Jul 2025",
     degree: "Bachelor of Informatics Engineering",
     gpa: "3.90 / 4.00",
-    thesis: "Comparison of Naïve Bayes Classifier and Random Forest Methods for Film Classification Based on Viewer Age",
-    points: [] as string[],
+    thesis: "",
+    points: [
+      "Designed 5+ UI mockups and prototypes, focusing on intuitive user experiences and responsive layouts.",
+      "Developed 3+ web-based academic projects using HTML, CSS and JavaScript integrated with MySQL databases.",
+      "Collaborated with a team of 5 members to complete 20+ academic projects, ensuring affective teamwork and project issues.",
+    ],
   },
   {
     school: "Bangkit Academy by Google, GoTo and Traveloka",
