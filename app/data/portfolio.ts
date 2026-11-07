@@ -19,7 +19,7 @@ export const about = {
 export const skills = {
   hard: ["HTML", "CSS", "Next.js", "React.js", "TypeScript", "Python", "JavaScript", "MySQL", "Frontend Architecture", "Responsive Web Design", "Interaction Design", "Design System"],
   soft: ["Analytical Skills", "Time Management", "Teamwork", "Attention to Detail", "Adaptability"],
-  tools: ["Visual Studio Code", "Figma", "Git/Github", "Vercel", "MySQL"],
+  tools: ["Visual Studio Code", "Figma", "Git/Github", "Vercel", "Docker", "MySQL"],
 };
 
 export const experience = [
