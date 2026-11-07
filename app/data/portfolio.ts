@@ -7,7 +7,7 @@ export const personal = {
   linkedin: "https://www.linkedin.com/in/rizkiayuniandari",
   instagram: "https://www.instagram.com/masayu_r/",
   whatsapp: "https://wa.me/6282248472562",
-  cv: "https://drive.google.com/file/d/17AivcoB_Ddf1Tp6B3-baZ5qs9pjEL0b_/view?usp=sharing",
+  cv: "https://drive.google.com/file/d/1VJNK7Ht5q1AoDbk__HFFt6q8SZy9YMeX/view?usp=sharing",
   photo: "/full.jpeg",
 };
 
