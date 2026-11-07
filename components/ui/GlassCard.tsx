@@ -8,7 +8,11 @@ interface GlassCardProps {
 
 export default function GlassCard({ children, className = "", delay = 0 }: GlassCardProps) {
   return (
-    <div className={`glass rv ${className}`} style={{ "--d": `${delay}s` } as CSSProperties}>
+    <div
+      className={`glass rv ${className}`}
+      style={{ "--d": `${delay}s` } as CSSProperties}
+      suppressHydrationWarning
+    >
       {children}
     </div>
   );

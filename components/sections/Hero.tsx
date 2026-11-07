@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="blob" style={{ width: 260, height: 260, left: -80, top: 40, background: "var(--b3)" }} />
         <div className="blob" style={{ width: 200, height: 200, right: -60, bottom: 0, background: "var(--b1)", animationDelay: "2s" }} />
 
-        <div className="rv">
+        <div className="rv" suppressHydrationWarning>
           <p className="k">Front-End Developer · Web Developer · UI/UX </p>
           <h1>
             Building Responsive{" "}
@@ -30,7 +30,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="art rv" style={{ "--d": ".15s" } as CSSProperties}>
+        <div className="art rv" style={{ "--d": ".15s" } as CSSProperties} suppressHydrationWarning>
           <div className="arch">
             <img src={personal.photo} alt={`Portrait of ${personal.name}`} />
           </div>
@@ -57,7 +57,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="strip glass rv">
+      <div className="strip glass rv" suppressHydrationWarning>
         <div className="mq">
           {marquee.map((t, i) => (
             <span key={i}>{t} ✦</span>
