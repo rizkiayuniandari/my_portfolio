@@ -136,6 +136,10 @@ export const projects: Project[] = [
     collaboration: ["Content Team", "Backend Engineer", "Project Manager"],
     tech: ["Next.js", "TypeScript"],
     image: "/projects/project-5/venambak.png",
+    link: {
+      label: "Visit website",
+      url: "https://venambak.id/",
+    },
   },
   {
     slug: "venambak-app",
